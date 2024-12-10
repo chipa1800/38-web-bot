@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="circulo1"></div>
+    <div class="circulo2"></div>
+
+    <header>
+        <div class="overlay">
+            <nav>
+                <div class="logo">TravelSite</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Place</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <h1>Our Destination is never a place, but a new way of seeing things</h1>
+                <a href="#" class="btn">Register Now</a>
+                <img src="" alt="">
+            </div>
+        </div>
+    </header>
+
+
+    <section class="places-section">
+        <h1>Visit Fantastic Places</h1>
+        <nav class="sub-menu">
+            <a href="#" class="active" id="places-link">Places</a> | <a href="#" id="favorites-link">Favorites</a>
+        </nav>
+
+        <div class="cards-container">
+
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+
+    <section class="favorites-section" style="display: none;">
+        <h1>Your Favorite Places</h1>
+        <input type="text" id="search-favorite" placeholder="Search for a favorite country">
+        <div class="favorites-container">
+            
+        </div>
+    </section>
+
+
+    <section class="services-section">
+        <div class="service-item">
+            <div class="service-content">
+                <h3>Taxi Service</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus feugiat sapien, id gravida nunc tristique cursus. Cras aliquam maximus neque, et feugiat dui pharetra sed. Sed at volutpat libero. Curabitur iaculis nunc fermentum ligula porta, non elementum lorem lacinia. Vivamus hendrerit sagittis sapien, sit amet suscipit risus. Nunc porttitor urna ac ex lobortis, id finibus augue semper. Morbi urna massa, dignissim id elit sed, tincidunt efficitur eros.</p>
+                <button>Learn More</button>
+            </div>
+            <img src="https://s3-alpha-sig.figma.com/img/2387/f7f4/2d3dbca6db7e0f5dc949e6aa856f477e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MIA-k4H0KrnjK0hBtUazVjPa4T3Q-TM5L7mVZtXCCAVTN8K4VQ2pvmx2EAV1XgoL1wwIlRHgpW3K~Wec0JYYz9O8XRAD2HYoiSceEIqu4-alTOZt0jmVv5CA1kSAY3uJo4i--Z5GnX~S0cC9UBovBiqasWVJHEToL7R16Qb5BTCjebo8RYnqkt-5w5u1C4JnhjmILwrqOBX7RRXzC1UhbNlFTbMuDORvNSM17PoVwpPkgbBJquRxIEHYgqhXLOV40f2dQpuNKUZfNOmzTFsirEeHanEmIvTpFm92FRgdRN7yxg7TrC8JUZiB14u7Upm5jn6AK3dS2oa4GqBfSiD9Tw__" alt="Taxi Service">
+        </div>
+        <div class="service-item">
+            <div class="service-content">
+                <h3>Hotel Service</h3>
+                <p>Find the best hotels for your stay, offering comfort and convenience during your travels.</p>
+                <button>Learn More</button>
+            </div>
+            <img src="ruta-de-tu-imagen-de-hotel.jpg" alt="Hotel Service">
+        </div>
+    </section>
+
+    <div class="spacer"></div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+        <p>All rights reserved.</p>
+    </footer>
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title">Destination Name</h2>
+            </div>
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="Country Image" style="width: 400px; height: auto; margin-right: 20px;">
+                <div id="modal-text">
+                    <p id="modal-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus feugiat sapien, id gravida nunc tristique cursus...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
